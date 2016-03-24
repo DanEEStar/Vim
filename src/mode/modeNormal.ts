@@ -160,7 +160,7 @@ export class NormalMode extends Mode {
         this.motion.left().move();
     }
 
-    async handleKeyEvent(key : string): Promise<boolean>  {
+    async handleKeyEvent(key : string): Promise<Boolean>  {
         this._keyHistory.push(key);
 
         let keyHandled = false;
